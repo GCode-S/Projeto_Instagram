@@ -1,0 +1,41 @@
+form#post{
+    width: 100%;
+    max-width: 640px;
+    margin: 0px auto;
+    padding: 5px;
+    padding-top: 80px;
+}
+
+form#post .ground{
+    background-color: rgb(243, 243, 243);
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 10px 20px 20px 0 #ddd;
+}
+
+form#post .ground input{
+    margin-top: 15px;
+    padding: 8px;
+    width: 60%;
+    border-radius: 8px;
+    border:0;
+}
+
+form#post .ground button{
+    margin-top: 15px;
+    padding: 8px;
+    width: 40%;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    background-color: #f39c12;
+    border: 0;
+    cursor: pointer;
+}
+
+form#post .ground button:active{
+    opacity: .8;
+}

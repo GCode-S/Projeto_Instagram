@@ -1,0 +1,25 @@
+header#header{
+    height: 60px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+
+header#header .content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#header .content img{
+    height: 66px;
+}
+
+header#header .content img#camera{
+    height: 40px;
+}
